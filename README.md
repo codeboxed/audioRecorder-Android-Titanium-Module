@@ -210,11 +210,11 @@ The audioRecorder variable is a reference to the Module object.
 	});
 
 
-win.add(recordBtn);
-win.add(stopRecordBtn);
-win.add(playBtn);
-
-win.open();
+	win.add(recordBtn);
+	win.add(stopRecordBtn);
+	win.add(playBtn);
+	
+	win.open();
 	
 
 ## Author
