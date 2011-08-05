@@ -55,7 +55,7 @@ var stopRecordBtn = Titanium.UI.createButton({
 
 stopRecordBtn.addEventListener('click', function(e) {
 	
-	fileRecorded = audiorecorder.stop();	// The stop() method will return the file that was generated after the recording stopped.
+	fileRecorded = audioRecorder.stop();	// The stop() method will return the file that was generated after the recording stopped.
 
 });
 

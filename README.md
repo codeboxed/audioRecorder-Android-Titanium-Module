@@ -190,7 +190,7 @@ The audioRecorder variable is a reference to the Module object.
 
 	stopRecordBtn.addEventListener('click', function(e) {
 		
-		fileRecorded = audiorecorder.stop();	// The stop() method will return the file that was generated after the recording stopped.
+		fileRecorded = audioRecorder.stop();	// The stop() method will return the file that was generated after the recording stopped.
 
 	});
 
